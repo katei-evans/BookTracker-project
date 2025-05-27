@@ -161,7 +161,7 @@ def menu():
                 print(f"Error: {ve}")
 
         elif choice == "6":
-            print("👋 Goodbye!")
+            print("Goodbye!")
             break
         else:
             print("Invalid choice. Please try again.")
