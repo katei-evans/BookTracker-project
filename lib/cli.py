@@ -191,7 +191,6 @@ def update_book_interactive(db):
                 print("No valid updates provided.")
                 continue
             
-            # Apply updates to the book object
             updated_book = Book(
                 title=updates.get('title', book.title),
                 author=updates.get('author', book.author),
